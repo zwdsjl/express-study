@@ -15,7 +15,7 @@ router.all('/', function(req, res, next) {
 });
 
 router.param('id',function(req, res, next,id){
-  console.log('CALLED ONLY ONCE',id);
+  console.log('CALLED ONLY ONCE!',id);
   next();
 })
 
